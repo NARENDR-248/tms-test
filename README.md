@@ -33,7 +33,7 @@ We recommend using PNPM as the package manager for your Next.js project. To inst
 
 ```
  
-4. Install Dependencies:
+5. Install Dependencies:
 Now, install the project's dependencies using PNPM. In your project directory, run:
 ```bash
  pnpm install
@@ -41,7 +41,7 @@ Now, install the project's dependencies using PNPM. In your project directory, r
 ```
 This command will install all the required dependencies specified in the package.json file.
 
-5. Run the Project:
+6. Run the Project:
 ```bash 
   pnpm dev
 
