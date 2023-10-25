@@ -95,10 +95,15 @@ Before you get started, make sure you have the following software and tools inst
 Create a .env file in the project root directory and configure it with your database and Redis connection details. You can use the following as a template:
 
 DB_HOST=your_mysql_host
+
 DB_USER=your_mysql_user
+
 DB_PASSWORD=your_mysql_password
+
 DB_DATABASE=your_mysql_database
+
 REDIS_HOST=your_redis_host
+
 REDIS_PORT=your_redis_port
 
 
