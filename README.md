@@ -92,8 +92,7 @@ Before you get started, make sure you have the following software and tools inst
    pnpm install
 
 ### Configuration: 
-Create a .env file in the project root directory and configure it with your database and Redis connection details. 
-You can use the following as a template:
+Create a .env file in the project's root directory and copy the data from the .example.env file into it. Configure the .env file with your database and Redis connection details, making sure to replace the following placeholders with your specific values:
 
 DB_HOST=your_mssql_host
 
