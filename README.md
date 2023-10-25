@@ -72,7 +72,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 # Backend Project README
 
-This is the README file for a backend project. In this project, we'll be working with MySQL and Redis databases. Follow the instructions below to set up and run the project.
+This is the README file for a backend project. In this project, we'll be working with MsSQL and Redis databases. Follow the instructions below to set up and run the project.
 
 ## Prerequisites
 
@@ -91,23 +91,24 @@ Before you get started, make sure you have the following software and tools inst
    ```bash
    pnpm install
 
-###Configuration: 
-Create a .env file in the project root directory and configure it with your database and Redis connection details. You can use the following as a template:
+### Configuration: 
+Create a .env file in the project root directory and configure it with your database and Redis connection details. 
+You can use the following as a template:
 
-DB_HOST=your_mysql_host
+DB_HOST=your_mssql_host
 
-DB_USER=your_mysql_user
+DB_USER=your_mssql_user
 
-DB_PASSWORD=your_mysql_password
+DB_PASSWORD=your_mssql_password
 
-DB_DATABASE=your_mysql_database
+DB_DATABASE=your_mssql_database
 
 REDIS_HOST=your_redis_host
 
 REDIS_PORT=your_redis_port
 
 
-Replace your_mysql_host, your_mysql_user, your_mysql_password, your_mysql_database, your_redis_host, and your_redis_port with your specific values.
+Replace your_mssql_host, your_mssql_user, your_mssql_password, your_mssql_database, your_redis_host, and your_redis_port with your specific values.
 
 
 
