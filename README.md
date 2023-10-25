@@ -63,12 +63,12 @@ Then run the development server:
 npm run dev
 # or
 yarn dev
-``` -->
+```--->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-<!-- 
+
 # Backend Project README
 
 This is the README file for a backend project. In this project, we'll be working with MySQL and Redis databases. Follow the instructions below to set up and run the project.
@@ -114,5 +114,4 @@ pnpm start:dev
 
 This command will start the backend server and make it available for development and testing. You can access the API at http://localhost:YOUR_PORT, where YOUR_PORT is the port specified in your project configuration.
 
-```
- -->
+
