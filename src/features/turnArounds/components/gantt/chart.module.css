@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flexdirection: column;
+  overflowx: auto;
+  /* width: 100%;
+    height: 100%; */
+  /* scrollbar-gutter: stable; */
+}
+
+.container::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* New Syntax */
+.container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(98, 156, 204, 1);
+  transition: background-color 1s ease-out;
+}
+
+.container::-webkit-scrollbar-thumb {
+  /* background-clip: padding-box; */
+  cursor: pointer;
+  background-color: rgba(98, 156, 204, 0.5);
+  transition: background-color 1s ease-out;
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: rgba(11, 32, 50, 1);
+}
+
+/* Firefox */
+.container {
+  scrollbar-width: thin;
+  scrollbar-color: #f90 #f5f5f5;
+}
+
+/* .tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+  } */

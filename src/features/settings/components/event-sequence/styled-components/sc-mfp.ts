@@ -1,0 +1,73 @@
+import Image from "next/image";
+import {
+  Box,
+  Typography,
+  styled,
+  Button,
+  FormControl,
+  Select,
+  InputLabel,
+} from "@mui/material";
+export const Components = {
+  Container: styled(Box)(() => ({
+    background: "rgba(0, 0, 0, 0.6)",
+    width: "100%",
+    height: "100vh",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    zIndex: 100,
+    display: "flex",
+    alignItems: "flex-end",
+  })),
+  FilterWrapper: styled(Box)(() => ({
+    background: "#ffffff",
+    width: "inherit",
+    minHeight: "507px",
+    borderRadius: "30px 30px 0px 0px",
+    padding: "25px 28px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+  })),
+  FilterHeading: styled(Box)(() => ({
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+  })),
+  FilterHeadingText: styled(Typography)(() => ({
+    fontSize: "24px",
+    fontWeight: "700",
+    color: "#000000",
+  })),
+  FilterCross: styled(Image)(() => ({
+    cursor: "pointer",
+  })),
+  FormControlWrapper: styled(Box)(() => ({})),
+  FormControl: styled(FormControl)(() => ({
+    width: "100%",
+    marginBottom: "25px",
+  })),
+  FormInputLabel: styled(InputLabel)(() => ({})),
+  FormSelectChipDropdown: styled(Select)(() => ({})),
+  FilterCancelBtn: styled(Button)(() => ({
+    width: "100%",
+    height: "62px",
+    border: "1px solid #000",
+    borderRadius: "6px",
+    fontSize: "18px",
+    fontWeight: "700",
+    color: "#000",
+    textTransform: "capitalize",
+  })),
+  FilterApplyBtn: styled(Button)(() => ({
+    width: "100%",
+    height: "62px",
+    borderRadius: "6px",
+    background: "#152E44",
+    fontSize: "18px",
+    fontWeight: "700",
+    color: "#ffffff",
+    textTransform: "capitalize",
+  })),
+};

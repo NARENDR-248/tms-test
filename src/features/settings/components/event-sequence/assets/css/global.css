@@ -1,0 +1,29 @@
+/* .mui-style-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #11293E;
+} */
+.hideScrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+.anim {
+  display: flex !important;
+  animation: slideFromRight 0.5s ease-in-out forwards;
+}
+.connecter-line {
+  position: absolute;
+}
+.event-expand-collapse-icon {
+  position: absolute;
+  top: "20px";
+}
+/* Define animation */
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100%) scale(0.1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "extends": "next/core-web-vitals",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    // "linebreak-style": ["error", "windows"], // enforce Windows line endings
+    // "quotes": ["error", "double"], // enforce double quotes for strings
+    // "react/jsx-boolean-value": ["error", "always"], // enforce boolean attributes to have a value
+    "react-hooks/rules-of-hooks": "error", // enforce React hooks rules
+    "react-hooks/exhaustive-deps": "off" // warn on missing dependencies in React hooks
+  }
+}
