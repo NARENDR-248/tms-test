@@ -24,16 +24,16 @@ To get a local copy up and running, follow these simple steps:
    git clone https://github.com/your-username/your-project.git
   
 
-1. Change your working directory to the project root:
+3. Change your working directory to the project root:
    cd project name
-2. Install Global PNPM:
+4. Install Global PNPM:
 We recommend using PNPM as the package manager for your Next.js project. To install PNPM globally, run:
 ```bash
  npm install -g pnpm
 
 ```
  
-3. Install Dependencies:
+4. Install Dependencies:
 Now, install the project's dependencies using PNPM. In your project directory, run:
 ```bash
  pnpm install
@@ -41,7 +41,7 @@ Now, install the project's dependencies using PNPM. In your project directory, r
 ```
 This command will install all the required dependencies specified in the package.json file.
 
-4. Run the Project:
+5. Run the Project:
 ```bash 
   pnpm dev
 
