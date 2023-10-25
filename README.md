@@ -78,7 +78,7 @@ This is the README file for a backend project. In this project, we'll be working
 
 Before you get started, make sure you have the following software and tools installed:
 
-- [MySQL](https://www.mysql.com/): The database system.
+- [MsSQL](https://www.mssql.com/): The database system.
 - [Redis](https://redis.io/): An in-memory data structure store.
 - [pnpm](https://pnpm.io/): A package manager (you can also use npm or yarn).
 - Code editor of your choice (e.g., Visual Studio Code).
