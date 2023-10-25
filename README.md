@@ -91,7 +91,7 @@ Before you get started, make sure you have the following software and tools inst
    ```bash
    pnpm install
 
-###Configuration:
+###Configuration: 
 Create a .env file in the project root directory and configure it with your database and Redis connection details. You can use the following as a template:
 
 DB_HOST=your_mysql_host
